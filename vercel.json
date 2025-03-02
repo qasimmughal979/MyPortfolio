@@ -24,6 +24,10 @@
     ],
     "routes": [
         {
+            "src": "/",
+            "dest": "/portfolio.html"
+        },
+        {
             "src": "/portfolio.html",
             "dest": "/portfolio.html"
         },
