@@ -4,6 +4,9 @@
         "src": "/(.*)",
         "dest": "/portfolio.html"
       }
-    ]
+    ],
+    "static": {
+      "directory": "public"
+    }
   }
   
