@@ -1,15 +1,47 @@
 {
     "version": 2,
     "builds": [
-      { "src": "portfolio.html", "use": "@vercel/static" },
-      { "src": "style.css", "use": "@vercel/static" },
-      { "src": "me.JPG", "use": "@vercel/static" },
-      { "src": "q.png", "use": "@vercel/static" },
-      { "src": "tianyi-ma-WiONHd_zYl4-unsplash.jpg", "use": "@vercel/static" },
-      { "src": "tianyi-ma-WiONHd_zYl4-unsplash1.jpg", "use": "@vercel/static" }
+        {
+            "src": "portfolio.html",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "style.css",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "me.JPG",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "q.png",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "tianyi-ma-WiONHd_zYI4-unsplash.jpg",
+            "use": "@vercel/static"
+        }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/portfolio.html" }
+        {
+            "src": "/portfolio.html",
+            "dest": "/portfolio.html"
+        },
+        {
+            "src": "/style.css",
+            "dest": "/style.css"
+        },
+        {
+            "src": "/me.JPG",
+            "dest": "/me.JPG"
+        },
+        {
+            "src": "/q.png",
+            "dest": "/q.png"
+        },
+        {
+            "src": "/tianyi-ma-WiONHd_zYI4-unsplash.jpg",
+            "dest": "/tianyi-ma-WiONHd_zYI4-unsplash.jpg"
+        }
     ]
-  }
-  
+}
